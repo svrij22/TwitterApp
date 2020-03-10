@@ -47,7 +47,6 @@ public class AccountController {
     public void handleButtonToonVrienden(ActionEvent actionEvent) throws Exception {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Vrienden.fxml"));
             Parent root = loader.load();
-            VriendenController controller = loader.getController();
 
             Stage newStage = new Stage();
             newStage.setScene(new Scene(root));
